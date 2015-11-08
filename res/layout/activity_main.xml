@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2" >
+
+        <com.example.test.CircularSeekbar
+            android:id="@+id/circularSeekbar1"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="0"
+            custom:invert="true"
+            custom:labelText="Test" 
+            custom:labelTextSize="40"/>
+
+        <com.example.test.CircularSeekbar
+            android:id="@+id/circularSeekbar2"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:layout_gravity="right|top"
+            android:layout_row="0"
+			custom:labelText="123" 
+			custom:labelTextSize="40"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStart" />
+
+    <TextView
+        android:id="@+id/txtCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

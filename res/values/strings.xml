@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">timer</string>
+    <string name="app_name2"></string>
+    
+    <string name="action_settings">Settings</string>
+	<string name="btnStart">Start</string>
+	
+    <string name="txtPrep">Prep. time</string>
+    <string name="designPrepTime">Vorbereitungszeit</string>
+    <string name="designRoundTime">Rundenzeit</string>
+    <string name="designRestTime">Erholungszeit</string>
+    <string name="designRep">Wiederholungen</string>
+    
+    <string name="action_edit">Edit</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_accept">Speichern</string>
+	
+</resources>

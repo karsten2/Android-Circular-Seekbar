@@ -1,0 +1,7 @@
+<resources>
+   <declare-styleable name="CircularSeekbar">
+       <attr name="invert" format="boolean" />
+       <attr name="labelText" format="string" />
+       <attr name="labelTextSize" format="integer" />
+   </declare-styleable>
+</resources>
